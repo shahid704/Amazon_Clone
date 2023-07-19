@@ -29,10 +29,13 @@
 
 .border{
     border: 1.5px solid transparent;
+    padding: 5px;
 }
 
 .border:hover{
     border: 1.5px solid white;
+    border-radius: 3px;
+    transition: border 150ms ease-in-out;
 }
 
 .add-first{
@@ -192,6 +195,9 @@ span{
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    &:hover{
+        transform: scale(1.05);
+    }
 
 }
 
